@@ -6,8 +6,8 @@ python:
 install:
   - pip install -r requirements.txt
   
-#build_image: drydock/u12pytpls:tip
-build_image: shippable/minv2
+build_image: drydock/u12pytpls:tip
+#build_image: shippable/minv2
 
 # Make folders for the reports, and create the SQL db
 before_script:
