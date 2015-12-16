@@ -5,6 +5,8 @@ python:
   
 install:
   - pip install -r requirements.txt
+  
+build_image: drydock/u12pytpls:tip
 
 # Make folders for the reports, and create the SQL db
 before_script:
