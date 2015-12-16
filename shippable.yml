@@ -4,8 +4,8 @@ python:
  - "2.7"
  - "2.6" 
  - "2.7" 
- - "3.2"
- - "3.3"
+# - "3.2"
+ #- "3.3"
  - "3.4"
  - "3.5"
  - "pypy"
@@ -13,8 +13,7 @@ python:
 install:
   - pip install -r requirements.txt
   
-#build_image: drydock/u14pyt:tip
-build_image: shippable/minv2
+build_image: drydock/u14pyt:tip
 
 # Make folders for the reports, and create the SQL db
 before_script:
