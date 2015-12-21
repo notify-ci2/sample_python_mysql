@@ -8,11 +8,8 @@ python:
  #- "3.3"
 # - "3.4"
  #- "3.5"
- - "pypy"
+# - "pypy"
  - "pypy3"
- 
-services:
- - mysql
  
 install:
   - pip install -r requirements.txt
