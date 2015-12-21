@@ -14,6 +14,9 @@ python:
 install:
   - pip install -r requirements.txt
   
+services:
+ - mysql
+  
 build_image: drydock/u14pytall:tip
 
 # Make folders for the reports, and create the SQL db
